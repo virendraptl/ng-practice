@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomTestDirective } from './custom-test.directive';
+import { CustomTestPipe } from './custom-test.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomTestDirective,
+    CustomTestPipe
   ],
   imports: [
     BrowserModule,
